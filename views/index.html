@@ -1,0 +1,81 @@
+<!-- Task List App -->
+
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task List App</title>
+    <meta name="description" content="A cool thing made with HyperDev">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/43ce315193.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Task List App
+      </h1>
+    </header>
+
+    <main>
+      <div class="menu_side">
+        <ul>
+          <li><span class="glyphicon glyphicon-signal"></span></li>
+          <li>10:15 AM</li>
+          <li><img src="https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2F5_battery_5_black.png"></li>
+        </ul>
+        <button><span class="glyphicon glyphicon-chevron-left"></span></button>
+        <button><img src="https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2Fpoints.png"></button>
+        <p>Remote Working</p>
+        <button><img src="https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2Fplus-sign-in-a-circular-outline.png"></button>
+      </div>
+      <div class="todos_side">
+        <h5>TODAY</h5>
+          <ul>
+            <li><input type="checkbox" id="check1"><label for="check1"><span class="checkbox">
+                <img src="https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2Fmobile-phone.png">Design onboarding screen</span>
+                </label>
+                <p>Discuss with the dev first</p>
+            </li>
+            <hr>
+            <li><input type="checkbox" id="check2"><label for="check2"><span class="checkbox">
+                <img src="https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2Fbrush_2-512.png">Create new icon set</span>
+                </label></li>
+          </ul>
+        <h5>TOMORROW</h5>
+          <ul>
+            <li><input type="checkbox" id="check3"><label for="check3"><span class="checkbox">
+                <img src="https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2FSamp-browser_internet_page_web_website_window_icon.png">
+                Code a new portfolio web</span></label></li>
+            <hr>
+            <li><input type="checkbox" id="check4"><label for="check4"><span class="checkbox">
+                <img src="https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2Fflat-open-mail.png" id="poza">Send proposal email</span>
+                </label></li>
+            <hr>
+            <li>Design onboarding screen</li>
+          </ul>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://hyperdev.com">
+        Remix this in HyperDev
+      </a>
+    </footer>
+
+  </body>
+</html>

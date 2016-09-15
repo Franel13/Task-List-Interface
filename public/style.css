@@ -1,0 +1,169 @@
+/***  General Styling  ***/
+header > h1 {
+  text-align: center;
+}
+
+main {
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 20px 1px rgba(173,173,173,0.73);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu_side {
+  background: linear-gradient(
+    rgba(70, 0, 0, 0.45),
+    rgba(0, 0, 200, 0.45)
+  ),
+              url(https://cdn.hyperdev.com/us-east-1%3A0d3728e2-dc27-4dc2-96e9-c86e1e9f508b%2Fdesktop.jpg),
+              no-repeat;
+  background-position: 55% 60%;
+  color: white;
+  height: 150px;
+}
+
+.menu_side img {
+  height: 30px;
+  width: 30px;
+}
+
+.menu_side li {
+  display: inline-block;
+  width: 110px;
+}
+
+.menu_side li:first-child {
+  margin-left: -30px;
+}
+
+.menu_side li:nth-child(2) {
+  padding-left: 42px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.menu_side li:last-child {
+  float: right;
+  padding-left: 70px;
+  margin-top: -7px;
+}
+
+.menu_side button:first-of-type {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 0px;
+}
+
+.menu_side button:nth-of-type(2) {
+  width: 40px;
+  height: 20px;
+  background: transparent;
+  margin-left: 320px;
+  border: 0px;
+}
+
+.menu_side p {
+  padding-top: 60px;
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.menu_side button:last-of-type img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu_side button:last-of-type {
+  position: relative;
+  left: 290px;
+  top: -34px;
+  background: transparent;
+  border: 0px;
+}
+
+.todos_side {
+  padding-top: 35px;
+  padding-left: 10px;
+}
+
+.todos_side ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.todos_side ul img {
+  width: 20px;
+  height: 20px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.todos_side label {
+  position: relative;
+}
+
+.todos_side span::before,
+.todos_side span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+.todos_side span.checkbox::before {
+  width: 27px;
+  height: 27px;
+  background-color: #E4EFF2;
+  left: -35px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: 2px;
+  transition: border-color .4s;
+}
+
+.todos_side span.checkbox:hover::before {
+  border: 3px solid #B3AAFA;
+}
+
+.todos_side span.checkbox::after {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  left: -28px;
+  top: 1px;
+  color: transparent;
+  transition: color .1s;
+}
+
+.todos_side input[type="checkbox"]:checked + label span.checkbox::after {
+  color: #B3AAFA;
+}
+
+.todos_side li:last-of-type {
+  padding-bottom: 30px;
+  text-decoration: line-through;
+}
+
+.todos_side hr {
+  width: 310px;
+  margin-left: 0px;
+}
+
+.todos_side p {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.todos_side h5 {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+#poza {
+  margin-right: 5px;
+}
