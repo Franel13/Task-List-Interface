@@ -1,3 +1,3 @@
 <h1> Todo List Interface</h1>
 
-<h2>https://dent-burn.hyperdev.space - Live Preview</h2>
+<a target="_blank" href="https://dent-burn.glitch.me/"> Live Preview </a>
